@@ -1,4 +1,5 @@
-## PT-BR: Sobre esse repositório público (curso-de-javascript-do-curso-em-video)
+# PT-BR: Sobre esse repositório público (curso-de-javascript-do-curso-em-video)
+## Em construção
 Olá! Esse é um repositório público.
 
 Neste repositório, você vai encontrar os meus estudos do curso "JavaScript"
@@ -11,7 +12,8 @@ Saudações,
 
 **B.**
 ---
-## EN-US: About this public repository (curso-de-javascript-do-curso-em-video)
+# EN-US: About this public repository (curso-de-javascript-do-curso-em-video)
+## Under onstruction
 Hello! This is a public repository.
 
 In this repository, you will find my learnings of the "JavaScript" course
