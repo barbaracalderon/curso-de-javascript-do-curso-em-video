@@ -42,3 +42,36 @@
 * n.toFixed(2) // duas casas decimais
 * n.toFixed(2).replace('.', ',') // trocar ponto (padrão) para vírgula
 * n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // coloca o R$
+
+## Operadores
+
+1. aritméticos
+* \+
+* \-
+* \*
+* /
+* %
+* \**
+2. atribuição
+3. relacionais
+* \>
+* <
+* \>=
+* <=
+* ==
+* ===
+* !=
+* !==
+4. lógicos
+* ! (negação)
+* && (conjunção 'e')
+* || (disjunção 'ou')
+5. ternários
+* ?
+* :
+
+## Ordem de Precedência
+
+1. aritméticos
+2. relacionais
+3. lógicos (! -> && -> ||)
