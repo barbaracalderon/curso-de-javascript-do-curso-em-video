@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body {
+            background: wheat;
+            font: normal 15pt Arial;
+        }
+
+        input {
+            font: normal 12pt Arial;
+            width: 100px;
+        }
+
+        div#res {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <h1>Calculadora de Soma</h1>
+    <input type="number" name="txt1" id="txt1"> +
+    <input type="number" name="txt2" id="txt2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res"></div>
+
+    <script>
+        function somar() {
+            var tn1 = window.document.querySelector('input#txt1')
+            var tn2 = window.document.querySelector('input#txt2')
+            var res = window.document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var soma = n1 + n2
+            res.innerHTML = `<strong>Resultado</strong>: ${soma}`
+        }
+    </script>
+</body>
+</html>
