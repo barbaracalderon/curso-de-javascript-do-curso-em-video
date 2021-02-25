@@ -6,7 +6,9 @@ Neste repositório, você vai encontrar os meus estudos do curso "JavaScript"
 do "Curso em Vídeo" do prof. Gustavo Guanabara. Estes são os meus códigos soluções
 aos desafios/exercícios propostos pelo próprio curso.
 
-Eu espero que estes códigos sejam de alguma ajuda pra ti.
+Além disso, **visualize o documento NOTES.md** para ver as **anotações que considero importantes** das aulas. Este arquivo é um complemento.
+
+Eu espero que estes códigos e anotações sejam de alguma ajuda pra ti.
 
 Saudações,
 
