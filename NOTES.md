@@ -103,3 +103,15 @@ Para acessar meus elementos (e usá-los para algo), são cinco métodos:
 Para usar meus elementos, devo acessá-los por um dos métodos acima e guardar esse elemento em uma variável. Agora, com JavaScript, consigo manipular esta variável para fazer outras coisas.
 
 Lembrando que, dentro do querySelector(), utilizar # é para div e . é para classe.
+
+## Eventos DOM
+
+Evento é tudo que pode acontecer com um elemento da janela. 
+
+No exercício 06 da aula 10 (no código) vemos vários eventos de mouse (clique, entrada e saída do cursos sobre uma área delimitada [em uma div]) que quando detectados (listen) produzem  um efeito na janela.
+
+Procurar mais sobre eventos que podem acontecer no DOM (DOM Events) em: [https://developer.mozilla.org/pt-BR/docs/Web/Events](link)
+
+### Obs. Exercício 06
+
+Substituí "onmouseenter" por "onmouseover.
