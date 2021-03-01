@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relações Internacionais</title>
+</head>
+<body>
+    <h1>Qual seu país?</h1>
+    <p> De onde você fala: 
+        <input type="text" name="origem" id="origem">
+        <input type="button" value="Enviar" onclick="saudar()">
+    </p>
+
+    <div id="res">
+    </div>
+    <script>
+        function saudar() {
+            var pais = window.document.querySelector('input#origem')
+            var pais_string = pais.value
+            var resposta = window.document.querySelector('div#res')
+            if (pais_string != 'Brasil') {
+                resposta.innerHTML = `<p>Você é Estrangeiro! Digitou ${pais_string}</p>`
+            } else {
+                resposta.innerHTML = `<p>Você é Brasileiro!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
