@@ -115,3 +115,20 @@ Procurar mais sobre eventos que podem acontecer no DOM (DOM Events) em: [https:/
 ### Obs. Exercício 06
 
 Substituí "onmouseenter" por "onmouseover.
+
+## Exercício 09
+
+O exercício 09 foi originalmente modificado para ser a minha solução do desafio proposto pelo prof. Guanabara ao final da aula 10. Por isto, se tornou um arquivo HTML com JavaScript. 
+
+### Importância do .value ##
+
+Neste exercício, perguntamos ao usuário de onde ele é: se digitar Brasil (com letra maiúscula), a tela vai dizer que é Brasileiro; se digitar qualquer outra coisa, vai dizer que é Estrangeiro. 
+
+Para pegar as informações que o usuário digita, inseri um input-text e um input-button. O segredo (que levei um tempo pra entender) é que o conteúdo desse input-text é visto na forma de um objeto (por meio do DOM) e, neste objeto, precisei pegar o "value" dele... que resulta em uma string. Esta string é o que o usuário digitou no campo. Para fazer isso as linhas a seguir foram importantes:
+
+```
+var pais = window.document.querySelector('input#origem')
+var pais_string = pais.value
+```
+
+E a partir daí, manipulei a variável "pais_string" para conseguir o que queria.
