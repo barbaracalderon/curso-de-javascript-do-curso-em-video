@@ -132,3 +132,29 @@ var pais_string = pais.value
 ```
 
 E a partir daí, manipulei a variável "pais_string" para conseguir o que queria.
+
+## Switch (Condição Múltipla)
+
+Switch é um tipo de condicional que, diferente do IF/ELSE, não serve para todos os momentos. Sua estrutura é:
+
+```
+switch (expressão) {
+    case valor1:
+    {bloco aqui}
+    break                   //obrigatório//
+
+    case valor2:
+    {bloco aqui}
+    break
+
+    case valor3:
+    {bloco aqui}
+    break
+
+    default:
+    {bloco aqui}
+    break
+}
+```
+
+O switch só funciona com números ou strings. É mais válido se você tem valores pontuais, não para avaliar intervalos de informação -> neste caso, é mais interessante utilizar o IF/ELSE.
