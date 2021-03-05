@@ -158,3 +158,14 @@ switch (expressão) {
 ```
 
 O switch só funciona com números ou strings. É mais válido se você tem valores pontuais, não para avaliar intervalos de informação -> neste caso, é mais interessante utilizar o IF/ELSE.
+
+## Exercício 14 - Imagens quadradas
+
+O exercício 14 está com as imagens em um formato diferente do que foi apresentado no curso. Como não tenho acesso ao Photoshop, optei por deixar as imagens no formato retangular. Para torná-las perfeitamente quadradas, utilizei CSS no arquivo de estilo. Ficou assim para deixá-las quadradas:
+
+```
+#foto img {
+    height: 120px;
+    width: 120px;
+}
+```
