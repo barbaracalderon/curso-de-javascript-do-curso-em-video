@@ -179,3 +179,11 @@ img {
 }
 ```
 E o problema foi resolvido.
+
+## Estruturas de Repetição no JS
+
+São três estruturas de repetição estudadas neste curso:
+
+1. Repetições com teste no início (WHILE)
+2. Repetições com teste no final (DO WHILE)
+3. Repetições com controle
