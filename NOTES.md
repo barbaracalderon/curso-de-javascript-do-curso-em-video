@@ -169,3 +169,13 @@ O exercício 14 está com as imagens em um formato diferente do que foi apresent
     width: 120px;
 }
 ```
+
+## Exercício 15 - Imagens de idades
+
+No exercício 15, as minhas imagens tinham uma dimensão de 120x120 pixels... o que significa que elas ficavam na mesma linha do texto. Para corrigir isso, deixar a imagem abaixo do texto, mexi no CSS e coloquei o seguinte conteúdo:
+```
+img {
+    padding: 45px;
+}
+```
+E o problema foi resolvido.
