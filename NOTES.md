@@ -186,4 +186,35 @@ São três estruturas de repetição estudadas neste curso:
 
 1. Repetições com teste no início (WHILE)
 2. Repetições com teste no final (DO WHILE)
-3. Repetições com controle
+3. Repetições com controle (FOR)
+
+### Sobre estrutura de repetição com variável de controle
+
+A estrutura "for" tem três partes:
+
+```
+for(inicio; teste; inc) {
+
+}
+```
+O início é a inicialização da estrutura; teste é referente ao teste lógico que é realizado; e inc refere-se a incrementação (adição de uma unidade na variável). Enquanto o resultado do teste lógico for (normalmente) True, a repetição acontece. No momento que o resultado do teste lógico for False, o laço de repetição é desfeito e a estrutura é encerrada.
+
+Lembrando: o resultado do teste lógico pode mudar porque ocorre um incremento. A cada incremento, o teste lógico é feito novamente.
+
+### Comparação entre estrutura while e for
+
+Abaixo, as duas estruturas realizam a mesma operação.
+
+```
+var c = 1
+while (c <= 10) {
+    bloco A
+    c++
+}
+
+for (var c = 1; c <= 10; c++) {
+    bloco A
+}
+```
+
+
