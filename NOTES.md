@@ -217,4 +217,12 @@ for (var c = 1; c <= 10; c++) {
 }
 ```
 
+## Variáveis
 
+### Variáveis Simples
+Capaz de armazenar apenas um valor por vez.
+
+### Variáveis Compostas
+São capazes de armazenar vários valores em uma mesma estrutura.
+
+A variável composta também conhecido como "array" ou vetor. **O vetor é uma variável que tem vários elementos e cada elemento é composto por seu valor e por uma chave de identificação.**
