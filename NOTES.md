@@ -219,6 +219,8 @@ for (var c = 1; c <= 10; c++) {
 
 ## Variáveis
 
+São de 2 tipos: simples e composta.
+
 ### Variáveis Simples
 Capaz de armazenar apenas um valor por vez.
 
@@ -226,3 +228,29 @@ Capaz de armazenar apenas um valor por vez.
 São capazes de armazenar vários valores em uma mesma estrutura.
 
 A variável composta também conhecido como "array" ou vetor. **O vetor é uma variável que tem vários elementos e cada elemento é composto por seu valor e por uma chave de identificação.**
+
+## Exemplos com Array (Variável Composta)
+
+```
+let num = [5, 8, 4]
+
+num[3] = 6      // Adiciona 6 depois do 4
+num.push(7)     // Adiciona 7 depois do 6
+num.length      // Sem parênteses, é atributo
+
+// Resultado: num = [5, 8, 4, 6, 7]
+
+num.sort()      // Reorganiza em ordem crescente
+
+// Resultado: num = [4, 5, 6, 7, 8]
+```
+Eu também posso utilizar uma estrutura de repetição para mostrar o conteúdo do meu array, ou seja, seus elementos. No exemplo a seguir, a escolha foi pela estrutura de repetição "for" - mesmo conteúdo exposto em uma das aulas explicativas.
+
+```
+for (let pos=0; pos <= num.length; pos++) {
+    console.log(num[pos])
+}
+```
+### Valor -1
+
+Para o JS, quando o usuário busca um valor no array e ele não é encontrado, o JS retorna por padrão este valor como -1.
