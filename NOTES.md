@@ -254,3 +254,7 @@ for (let pos=0; pos <= num.length; pos++) {
 ### Valor -1
 
 Para o JS, quando o usuário busca um valor no array e ele não é encontrado, o JS retorna por padrão este valor como -1.
+
+## Funções
+
+Uma função JavaScript só pode executar um único retorno.
