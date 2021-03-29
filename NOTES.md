@@ -258,3 +258,32 @@ Para o JS, quando o usuário busca um valor no array e ele não é encontrado, o
 ## Funções
 
 Uma função JavaScript só pode executar um único retorno.
+
+## Próximos Passos
+
+Antes de falar dos próximos passos, vmaos dar uma revisada no que teve dentro desse curso de JavaScript lecionado pelo prof. Gustavo Guanabara, com patrocínio do Google.
+
+Os conteúdos foram:
+
+- [x] Fundamentos
+- [x] Variáveis e dados
+- [x] Operadores
+- [x] Condições
+- [x] Repetições
+- [x] Arrays
+- [x] Functions (início do paradigma da programação funcional)
+- [x] DOM (Document Object Model)
+
+
+### A seguir
+
+O prof. Guanabara recomenda os seguintes próximos passos.
+
+- Fazer o curso de HTML5 + CSS3
+- Estudar functions (funções): tem muito conteúdo, por exemplo, arrow functions, callbacks, funções anônimas, JavaScript funcional, etc.
+- Objetos: declarar objetos, usar objetos, orientação a objetos
+- Modularização: reusar os códigos
+- Estudar expressões regulares (RegEx): validação de dados, economizada de tempo, etc.
+- Estudar JSON
+- AJAX
+- NodeJS: rodar os scripts no lado do servidor
