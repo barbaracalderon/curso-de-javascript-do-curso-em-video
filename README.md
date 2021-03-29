@@ -1,5 +1,5 @@
-# PT-BR: Sobre esse repositório público (curso-de-javascript-do-curso-em-video)
-## Em construção
+# Sobre
+## Curso de JavaScript do Curso em Video
 Olá! Esse é um repositório público.
 
 Neste repositório, você vai encontrar os meus estudos do curso "JavaScript"
@@ -8,14 +8,17 @@ aos desafios/exercícios propostos pelo próprio curso.
 
 Além disso, **visualize o documento NOTES.md** para ver as **anotações que considero importantes** das aulas. Este arquivo é um complemento.
 
+Caso deseje fazer o curso, ele é introdutório, gratuito e no idioma português. Recomendo que faça por meio da plataforma "Curso em Vídeo" - foi por onde eu fiz.
+
 Eu espero que estes códigos e anotações sejam de alguma ajuda pra ti.
 
 Saudações,
 
 **B.**
 ---
-# EN-US: About this public repository (curso-de-javascript-do-curso-em-video)
-## Under onstruction
+# About
+## Curso de JavaScript do Curso em Video
+
 Hello! This is a public repository.
 
 In this repository, you will find my learnings of the "JavaScript" course
